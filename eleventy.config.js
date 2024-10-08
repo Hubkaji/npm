@@ -2,6 +2,7 @@ export default async function (eleventyConfig) {
   //configure eleventy
   eleventyConfig.setInputDirectory("./src");
   eleventyConfig.setOutputDirectory("./dist");
+  eleventyConfig.setIncludesDirectory("./templates");
 
   eleventyConfig.setTemplateFormats("html,njk");
 
