@@ -38,5 +38,6 @@ jobs:
         run: npm run build
 
       # Publish to GitHub Pages
-      - uses: upload-pages-artifact
-        path: ./dist
+      - uses: actions/upload-pages-artifact@v3.0.1
+        with:
+          path: ./dist
