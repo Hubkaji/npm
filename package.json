@@ -4,7 +4,8 @@
   "description": "Learning resource for static website generation via eleventy",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "author": "Dice-Sensei",
   "private": "true",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Dice-Sensei/spselit-eleventy/issues"
   },
-  "homepage": "https://github.com/Dice-Sensei/spselit-eleventy#readme"
+  "homepage": "https://github.com/Dice-Sensei/spselit-eleventy#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
 }
