@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "eleventy --serve",
+    "prebuild": "del-cli ./dist",
     "build": "eleventy"
   },
   "author": "Dice-Sensei",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/Dice-Sensei/spselit-eleventy#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "del-cli": "^6.0.0"
   }
 }
