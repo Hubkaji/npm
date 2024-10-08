@@ -2,7 +2,7 @@
   "name": "spselit-eleventy",
   "version": "0.0.1",
   "description": "Learning resource for static website generation via eleventy",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy"
