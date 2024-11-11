@@ -7,41 +7,18 @@ layout: main.njk
   <p>Installation will be done through <b>NPM</b> system.</p>
   <h2>NPM</h2>
   <p>
-    <b>NPM</b> is packaging system with largest software
-    <a href="https://www.npmjs.com/">registry</a>. It allows easily creating and
-    sharing packages written in <b>javascript</b>. It is similar to
-    <a href="https://pypi.org/project/pip/">pip</a> for <b>python</b>
-  </p>
-  <p>
     NPM is installed as part of <b>nodejs</b> which is available at school
     computers.
   </p>
   <p>NPM is used through command line.</p>
-  <h2>NPM init</h2>
+  <h3>NPM install</h3>
   <p>
-    First of all we will use <code>npm init</code> which is interactive
-    walkthrough to set up package/project.
+    To get this project ready simply install all dependencies via command
+    <code>npm install</code>.
   </p>
+  <h3>NPM run</h3>
   <p>
-    This will create package.json file in repository which contains information
-    for our package. In the end we will not be uploading the package so
-    information does not need to be complete.
-  </p>
-  <h2>NPM install</h2>
-  <p>
-    Then we need to download Eleventy from registry to use it in our project.
-    That is done via npm command install:
-    <code>npm install {package-name}</code>
-  </p>
-  <p>
-    This would add package to all dependencies which is not what we need this
-    time as Eleventy will be used only in development, for that reason we will
-    use <code>npm install -D @11ty/eleventy</code>
-  </p>
-  <p>
-    This will edit package.json and add new <b>package-lock.json</b> file and
-    folder <b>node_modules</b> . File <b>package-lock.json</b> contains
-    information what packages are used in this project including dependencies.
-    Folder <b>node_modules</b> contains all installed (downloaded) packages.
+    To run the project use command <code>npm run start</code>. This will serve
+    the project and open it in default browser.
   </p>
 </section>
